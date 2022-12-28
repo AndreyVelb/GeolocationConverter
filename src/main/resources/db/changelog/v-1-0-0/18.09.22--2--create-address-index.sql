@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS address_index ON geocoding_results(city, street, house);
